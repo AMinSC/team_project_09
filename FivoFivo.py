@@ -9,4 +9,4 @@ def chicken(x):
         a, b = b, c
 
 num = int(input('같이 먹는 사람 수: '))
-print('시켜야 되는 샐러드 양: {}'.format(chicken(num)))
+print('시켜야 되는 샐러드 양은: {}'.format(chicken(num)))
