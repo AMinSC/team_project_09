@@ -8,5 +8,7 @@ def chicken(x):
         elif c == x: return b
         a, b = b, c
 
-num = int(input('사람 수: '))
+num = int(input('같이 먹는 사람 수: '))
+print('시켜야 되는 샐러드 양은: {}'.format(chicken(num)))
 print('맥주: {}ml'.format(num * 400))
+
