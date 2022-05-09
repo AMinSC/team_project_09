@@ -9,4 +9,4 @@ def chicken(x):
         a, b = b, c
 
 num = int(input('사람 수: '))
-print('맥주: {}ml'.format(chicken(num) * 500))
+print('맥주: {}ml'.format(num * 400))
